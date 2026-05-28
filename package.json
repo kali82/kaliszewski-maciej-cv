@@ -2,8 +2,13 @@
   "name": "workspace",
   "version": "0.0.0",
   "license": "MIT",
+  "packageManager": "pnpm@11.0.9",
+  "engines": {
+    "node": ">=22.12.0 <25.0.0"
+  },
   "scripts": {
-    "preinstall": "sh -c 'rm -f package-lock.json yarn.lock; case \"$npm_config_user_agent\" in pnpm/*) ;; *) echo \"Use pnpm instead\" >&2; exit 1 ;; esac'",
+    "preinstall": "node -e \"const fs=require('node:fs'); for (const file of ['package-lock.json','yarn.lock']) { try { fs.rmSync(file); } catch {} } const ua=process.env.npm_config_user_agent || ''; const execPath=process.env.npm_execpath || ''; const isPnpm=ua.startsWith('pnpm/') || /pnpm/i.test(execPath); if (ua && !isPnpm) { console.error('Use pnpm instead'); process.exit(1); }\"",
+    "build:cv-site": "pnpm --filter @workspace/cv-site run build",
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
