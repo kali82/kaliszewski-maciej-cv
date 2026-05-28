@@ -1,0 +1,341 @@
+ 
+
+Text Box 11, Textbox 
+
+ 
+
+Name:	Maciej Kaliszewski 
+
+E-mail:	Maciej.Kaliszewski@ttpsc.pl 	 
+
+ 
+
+Industrial IoT specialist with 6 years of experience architecting and delivering enterprise-grade solutions on platforms including ThingWorx and Ignition. Expertise spans the full development lifecycle—from backend system integration and data pipeline architecture to modern frontend development using Angular and React. Proven track record of translating complex industrial requirements into scalable, maintainable applications that enhance operational efficiency and enable data-driven decision-making in production environments. 
+
+Group 22, Grouped object 
+
+ 
+
+  
+
+02.2026 - 06.2026	FINSA 
+The project focused on developing the FINSA solution in the ThingWorx environment to support the collection, processing, and visualization of production/process data. My work included preparing application logic, integrating data sources, and building elements responsible for handling and displaying information in the system. I also set up development and production servers for the solution. Additionally, I configured InfluxDB v2 as the time-series database for storing process data. 
+
+ 
+
+01.2026 - 03.2026	MARS MQTT CONNECTOR 
+Development of a ThingWorx JAVA extension  
+
+for sending messages to Azure Event Grid. Implementing handler thing to receive messages from Azure. 
+
+ 
+
+10.2025 - now	MARS DREAM 
+Development of a ThingWorx solution for optimizing dryer operation parameters. Integration with process data from Kepware/DB and ML model deployed in Azure cloud. 
+ 
+
+10.2025 - now	MARS EMS  
+Development of an application for real-time production recipe management. The system enables operators to dynamically adjust production parameters and monitor their impact on manufacturing processes directly on the production line. 
+
+ 
+
+04.2025 - 10.2025	MARS Wrigley  
+Development of a new application in Ignition 8.1, primarily using the Perspective module. Responsible for implementing user interfaces, dashboards, and industrial views adapted to real-time production environments. 
+Worked with SQL databases to retrieve and process production data. Performed data transformations and logic using Jython scripting for dynamic view behavior and backend services. Ensured integration between UI elements and underlying control/data layers to meet operational requirements. 
+
+ 
+
+12.2024-04.2025	K-IIOT-Olympus 
+Development of a vibration signal monitoring system and FFT analytics for predictive maintenance. The application enables early detection of anomalies in industrial machinery operation through visualization and analysis of raw sensor data. 
+
+ 
+
+04.2024 - now	SCHAEFFLER Navigate 
+Implementation of dedicated applications streamlining engineering data management and product lifecycle. Integration with PLM systems (Windchill) and databases provides engineers with centralized access to technical documentation and product configurations. 
+
+ 
+
+04.2024 - 05.2024	SCHAEFFLER PoC 2 
+Extension of data management functionality with advanced filtering and tabular editing. Improvement of form handling and user workflow in the technical change management process. Adaptation of the user interface to the general requirements of the client. Extending forms with additional user functions and adding three new forms. Adding auto-authentication from the frontend. 
+
+ 
+
+01.2024 - 03.2024	SCHAEFFLER GTC 
+Development of an application enabling advanced search and filtering of data distributed across multiple source systems. The solution allows users to quickly find technical information without having to search individual platforms separately. 
+
+ 
+
+10.2023 - 12.2023	SCHAEFFLER ECM PoC 1 
+Implementation of an Engineering Change Management system. The application automates the process of verification, approval, and tracking of changes in technical documentation and projects. 
+
+ 
+
+04.202-08.2023	KONEKTIO  
+Development of an application for managing Siemens device alarms with configuration capability by alarm type. Extension of functionality with real-time device location monitoring to improve service operations. 
+
+Creation of dashboards and backend services for energy monitoring and optimization system. The solution enables production facilities to identify areas of high energy consumption and plan optimization actions. 
+
+ 
+
+12.2022 - 03.2023	Energy Management System  
+Creation of dashboards and backend services for energy monitoring and optimization system. The solution enables production facilities to identify areas of high energy consumption and plan optimization actions. 
+
+ 
+
+ 
+
+07.2022 - 03.2023	Oerlikon  
+Implementation of a multi-tenant security model for machine management application. The system allows different organizations to share the platform while maintaining data isolation and access permissions. 
+
+ 
+
+ 
+
+04.2022 - 07.2022	MTI  
+Preparation of simulation environment for local testing of OPC connections. Customization of user interfaces and backend logic to specific client requirements. 
+
+ 
+
+ 
+
+09.2021 - 04.2022	FSU  
+Validation and testing of CWC/AMU/RTPPM production application functionalities. Implementation of validation services ensuring correct operation of user interfaces and business logic. 
+
+ 
+
+ 
+
+08.2021	GAS Pinning  
+Optimization of access server assignment to industrial assets. The system automatically connects remote devices with the geographically nearest server, minimizing communication latency. 
+
+ 
+
+07.2021	Custom Widget for Thingworx  
+
+Creation of a custom widget enabling import and conversion of CSV files to platform data structures. The tool streamlines the process of loading external data into industrial applications. 
+
+ 
+
+06.2021	Custom Localization Table  
+
+Development of a tool for managing multilingual translations in applications. The solution allows administrators to add, edit, and delete localization tokens without modifying source code. 
+
+ 
+
+08.2020 - 08.2021	Thingworx App  
+
+Creation of dashboards for real-time production process monitoring. Implementation of automated analytical reports supporting operational decision-making. 
+
+ 
+
+01.2021	Smart Light Bulb  
+
+Demonstration project of IoT device control using voice commands. Integration of smart bulb with Alexa voice assistant. 
+
+ 
+
+08.2020	Sound Meter  
+
+Demonstration of ESP8266 microcontroller capabilities in sound level monitoring. Web application visualizes real-time readings from acoustic sensor. 
+
+ 
+
+03.2020 - 05.2020	FSU  
+Work with Thingworx Manufacturing Apps production applications. Development of responsive user interfaces and implementation of CRUD operations for production modules. 
+
+ 
+
+01.2020 - 08.2020	Airmail Shipment  
+
+Development of a web application for courier shipment management. The system enables users to create orders, book couriers, and compare prices of different courier service providers. 
+
+ 
+
+02.2020	Virtual Heater  
+
+Demonstration project of ThingWorx platform using Raspberry Pi with temperature sensor. The system allows users to remotely control heating parameters and visualize temperature data in real-time. 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+ 
+
+07.2019 - 09.2019	XML Merger  
+
+Desktop application for merging and comparing XML files. The tool automates the process of identifying differences between versions of configuration documents. 
+
+ 
+
+ 
+
+10.2018 - 01.2019	Parcel Delivery  
+
+Desktop application for parcel shipment management with DHL integration. The system generates waybills in PDF format and automates the courier ordering process. 
+
+ 
+
+ 
+
+03.2018 - 06.2018	University Schedule  
+
+Android mobile application enabling offline access to class schedules. The solution allows students and lecturers to browse schedules without an internet connection. 
+
+ 
+
+ 
+
+ 
+
+Text Box 14, Textbox 
+
+ 
+
+10.2019-until now	Transition Technologies PSC  
+Position: Senior IoT Specialist  
+
+Responsible for:	 
+
+ThingWorx Platform 
+
+Built custom mashups and dashboards to monitor and control industrial processes. Designed services to handle backend logic, integrate with external systems, and support real-time data visualization. Customized widgets to extend UI functionality. Integrated data from various sources including Kepware, Windchill, MongoDB, and Apache Solr. 
+
+Ignition 
+
+Designed and implemented industrial applications using Ignition 8.1, mainly with the Perspective module. Created real-time dashboards and HMI views tailored to production environments. Wrote Jython scripts for backend logic and UI dynamics. Managed SQL data integration, transforming production data for visualization and operational use. 
+
+Angular 
+
+Developed modern, component-based frontend applications using Angular (including Angular 17). Implemented forms, tables, and dynamic data visualizations (Chart.js, agGrid). Integrated frontend apps with backend services using REST APIs. Configured Azure Active Directory for user authentication. Applied custom logic for auto-login, role-based access, and performance optimization. 
+
+ 
+
+Azure 
+
+ 
+
+Deployed applications to Azure using Jenkins CI/CD pipelines. Used Azure CosmosDB for NoSQL storage and Azure AD for user identity and access management. Created secure and scalable environments for frontend and backend services, enabling high availability for enterprise deployments. 
+
+ 
+
+Thingworx Navigate 
+
+Developed custom apps on the ThingWorx Navigate platform, including backend services to retrieve data from Windchill and MongoDB. Created administrative tools for app configuration and role-based access control. Collaborated closely with system architects to align Navigate apps with enterprise PLM strategies, improve data visibility, and streamline engineering and service processes. 
+
+Java/.Net 
+
+Created backend services to handle data processing, business logic, and external system integration. Developed RESTful APIs and service layers to connect frontend UIs with databases and third-party platforms. Ensured efficient and secure data flow across layers. 
+
+Testing (Xray) 
+
+Performed application validation using Xray test cases. Conducted manual  testing to ensure compliance with functional and non-functional requirements. 
+
+Real-time Data Visualization 
+
+Integrated real-time data streams from devices using protocols such as MQTT, HTTP, or Kepware. Created dashboards and charts to visualize operational metrics and sensor data, supporting instant decision-making on the shop floor. 
+
+Business Requirements → Technical Specifications 
+
+Collaborated with stakeholders to translate business needs into detailed technical documentation. Designed architecture, selected technologies, and ensured technical feasibility of IoT and web solutions. 
+
+Documentation (Functional + Technical Design) 
+
+Prepared comprehensive documentation for developed features and architecture. Maintained clarity and traceability of the system design for both technical teams and client stakeholders. 
+
+ 
+ 
+
+Text Box 319, Textbox 
+
+ 
+
+2015-2020	University of Zielona Góra  
+Computer Science, Specialization: Engineering of micro informatics systems  
+
+ 
+
+ 
+
+Text Box 321, Textbox 
+
+ 
+
+ 
+
+Technologies: Thingworx, Thingworx Navigate, Thingworx REST/OData API, Azure IoT, Ignition, Android, Alexa Skills, Node-RED , MQTT, OPC UA, Grafana 
+
+Programing Languages: Java, Typescript, JavaScript, Python (data processing, scripting), .NET, Arduino (embedded prototyping), Jython, Bash 
+
+DBMS: PostgreSQL, Influx, MongoDb, CosmosDb, MySQL, Firebase  
+
+Web technologies: Angular, RxJS, React, CSS3, Tailwind HTML5, jQuery, RWD, Stencil.js, PWA  
+
+Application Servers: Node.js, Tomcat 
+
+Development tools: Visual Studio Code, Postman, Swagger, Confluence, Github Actions, IntelliJ IDEA, Android Studio  
+
+Testing tools: JUnit , Postman, Jest 
+
+Systems: Windows, Linux, MacOS  
+
+Methodologies: Scrum , Code Review, TDD 
+
+Miscellaneous: GIT, Jira, Maven, Gradle, Webpack, Spring Framework 
+
+ 
+
+Text Box 323, Textbox• Ability of analytical thinking 
+
+ 
+
+Inductive Automation - Ignition Credential 8.1 
+
+Programming of Siemens PLC Controllers and HMI Panels  
+
+TT Academy – IoT Awareness  
+
+ 
+
+Text Box 325, Textbox 
+
+ 
+
+Polish	Native 
+
+English	C1 
+
+German	A1 
+
+ 
+
+Text Box 327, Textbox 
+
+ 
+
+Hobby:	Tennis, Football, Golf, Chess 
+
+Driving license:	B 
+
+ 
+
+ 
+
+Text Box 6, Textbox 
+
+ 
+
+Pursuant to Art. 13 sec. 4 to the Regulation (EU) 2016/679 of the European Parliament and of the Council of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (General Data Protection Regulation; GDPR) TT PSC (administrator of your personal data) informs that it plans to process the personal data provided in this document regarding your education and professional qualifications based on the legitimate interest of the administrator (Article 6 (1) (f) of the GDPR) consisting in:  
+
+Confirming to the client that the performance of the contract will involve persons with sufficient qualifications and ensuring the required level of professionalism, proper performance of the contract between the Administrator and the client. 
+
+The recipient of your data may be the client, its related entities, contractors and advisers. 
+
+In the remaining scope, the information provided to you by the Administrator in accordance with art. 13 of the GDPR regarding the processing of your personal data have not changed.  
+
+ 
