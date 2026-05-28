@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, BadgeCheck, Terminal } from "lucide-react";
+import { Mail, BadgeCheck, Terminal, Phone } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -28,11 +28,21 @@ export default function Hero() {
 
         <div className="flex flex-col sm:flex-row gap-4 mb-12 print:mb-6">
           <a 
-            href="mailto:maciej.kaliszewski@gmail.com"
+            href="mailto:kaliszewskimaciej@gmail.com"
             className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors print:text-black"
           >
             <Mail className="w-4 h-4" />
-            maciej.kaliszewski@gmail.com
+            kaliszewskimaciej@gmail.com
+          </a>
+
+          <div className="hidden sm:block text-muted-foreground print:hidden">•</div>
+
+          <a
+            href="tel:+48530335264"
+            className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors print:text-black"
+          >
+            <Phone className="w-4 h-4" />
+            +48 530 335 264
           </a>
           
           <div className="hidden sm:block text-muted-foreground print:hidden">•</div>
