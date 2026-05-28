@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, BadgeCheck, Terminal, Phone } from "lucide-react";
+import { Mail, BadgeCheck, Terminal, Phone, Linkedin, Github } from "lucide-react";
 
 export default function Hero() {
   return (
@@ -45,6 +45,30 @@ export default function Hero() {
             +48 530 335 264
           </a>
           
+          <div className="hidden sm:block text-muted-foreground print:hidden">•</div>
+
+          <a
+            href="https://www.linkedin.com/in/maciej-kaliszewski-052013135/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors print:text-black"
+          >
+            <Linkedin className="w-4 h-4" />
+            LinkedIn
+          </a>
+
+          <div className="hidden sm:block text-muted-foreground print:hidden">•</div>
+
+          <a
+            href="https://github.com/kali82"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-sm font-medium hover:text-primary transition-colors print:text-black"
+          >
+            <Github className="w-4 h-4" />
+            GitHub
+          </a>
+
           <div className="hidden sm:block text-muted-foreground print:hidden">•</div>
           
           <div className="inline-flex items-center gap-2 text-sm font-medium text-primary print:text-black">
