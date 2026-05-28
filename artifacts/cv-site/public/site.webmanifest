@@ -1,0 +1,24 @@
+{
+  "name": "Maciej Kaliszewski - IoT CV",
+  "short_name": "MK CV",
+  "description": "Portfolio and CV of Maciej Kaliszewski, focused on IoT, embedded systems, automation, and software engineering.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#050816",
+  "theme_color": "#ff3c00",
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
