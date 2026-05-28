@@ -9,7 +9,9 @@
   "scripts": {
     "preinstall": "node -e \"const fs=require('node:fs'); for (const file of ['package-lock.json','yarn.lock']) { try { fs.rmSync(file); } catch {} } const ua=process.env.npm_config_user_agent || ''; const execPath=process.env.npm_execpath || ''; const isPnpm=ua.startsWith('pnpm/') || /pnpm/i.test(execPath); if (ua && !isPnpm) { console.error('Use pnpm instead'); process.exit(1); }\"",
     "build:cv-site": "pnpm --filter @workspace/cv-site run build",
-    "build": "pnpm run typecheck && pnpm -r --if-present run build",
+    "typecheck:cv-site": "pnpm run typecheck:libs && pnpm --filter @workspace/cv-site run typecheck",
+    "build": "pnpm run typecheck:cv-site && pnpm run build:cv-site",
+    "build:all": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck"
   },

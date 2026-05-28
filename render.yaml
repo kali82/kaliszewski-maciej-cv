@@ -2,7 +2,7 @@ services:
   - type: web
     name: kaliszewski-maciej-cv
     runtime: static
-    buildCommand: corepack enable pnpm && pnpm install --frozen-lockfile && pnpm run build:cv-site
+    buildCommand: pnpm install --frozen-lockfile; pnpm run build
     staticPublishPath: artifacts/cv-site/dist/public
     envVars:
       - key: NODE_VERSION

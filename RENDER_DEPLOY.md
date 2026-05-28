@@ -13,7 +13,7 @@ This repository is configured for Render as a Static Site using `render.yaml`.
 Use these settings if you create the service manually instead of using the
 blueprint:
 
-- Build command: `corepack enable pnpm && pnpm install --frozen-lockfile && pnpm run build:cv-site`
+- Build command: `pnpm install --frozen-lockfile; pnpm run build`
 - Publish directory: `artifacts/cv-site/dist/public`
 - Node version: `24.14.1`
 - Environment variables:
@@ -25,7 +25,7 @@ blueprint:
 
 ```sh
 pnpm install
-pnpm run build:cv-site
+pnpm run build
 pnpm --filter @workspace/cv-site run serve
 ```
 
